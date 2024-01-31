@@ -1,4 +1,4 @@
-baseURL = "https://soloju.github.io"
+baseURL = "/"
 
 # theme
 # 主题
@@ -53,7 +53,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 [author]
   name = "Will Ju"
   email = "info@iofun.net"
-  link = "iofun.net"
+  link = ""
 
 # Menu config
 # 菜单配置
@@ -267,7 +267,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       title = ""
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "与大家一起讨论和分享IT技术,见闻，知识，趋势和心得"
+      subtitle = "与大家一起讨论和分享技术,见闻，知识，趋势和心得"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -957,18 +957,18 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
           title = ""
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+          subtitle = "享受技术的乐趣"
           typeit = true
-          social = true
+          social = false
           disclaimer = ""
       [languages.zh-cn.params.social]
-        GitHub = "xxxx"
-        Weibo = "xxxx"
-        Steam = "xxxx"
-        Zhihu = "xxxx"
-        Douban = "xxxx"
-        Devto = "xxxx"
-        Bilibili = "xxxx"
-        Email = "xxxx@xxxx.com"
-        Phone = "555-555-555"
+        GitHub = ""
+        Weibo = ""
+        Steam = ""
+        Zhihu = ""
+        Douban = ""
+        Devto = ""
+        Bilibili = ""
+        Email = ""
+        Phone = ""
         RSS = true
