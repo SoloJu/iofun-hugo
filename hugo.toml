@@ -112,7 +112,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   description = "享受技术乐趣"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = ["/logo-300.png"]
 
   # Header config
   # 页面头部导航栏配置
@@ -131,10 +131,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       logo = ""
       # title name
       # 标题名称
-      name = "iofun2"
+      name = "iofun"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
+      pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -458,7 +458,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Social share links in post page
     # 文章页面的分享信息设置
     [params.page.share]
-      enable = true
+      # 在post页面末尾不出现社交分享icon
+      enable = false
       Twitter = true
       Facebook = true
       Linkedin = false
@@ -875,12 +876,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         Facebook = "xxxx"
         Telegram = "xxxx"
         Youtubelegacy = "xxxx"
-        Phone = "555-555-555"
-        Email = "xxxx@xxxx.com"
+        Phone = ""
+        Email = ""
         RSS = true
         [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+          id = ""
+          prefix = ""
 
   [languages.zh-cn]
     weight = 2
